@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo */
+}
+
+header {
+    background-color: #35424a; /* Color de fondo del encabezado */
+    color: rgb(255, 255, 255); /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+}
+
+.barra-navegacion {
+    margin-top: 10px; /* Espaciado superior */
+}
+
+.barra-navegacion ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+}
+
+.barra-navegacion li {
+    display: inline; /* Mostrar elementos en línea */
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+.barra-navegacion a {
+    color: rgb(255, 255, 255); /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.catalogo {
+    display: flex; /* Usar flexbox para alinear los elementos */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+    justify-content: center; /* Centrar los elementos */
+    padding: 20px; /* Espaciado interno */
+}
+
+.prenda {
+    background-color: rgb(250, 247, 247); /* Color de fondo de cada prenda */
+    border: 1px solid hsl(0, 0%, 100%); /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 10px; /* Espaciado entre prendas */
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Centrar texto */
+    }

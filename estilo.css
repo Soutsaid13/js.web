@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* styles.css */
+
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente */
+    line-height: 1.6; /* Altura de línea */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin espaciado interno */
+    background-color: #ffffff /* Color de fondo */
+}
+
+/* Estilo para el encabezado */
+header {
+    background: #175aeb; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding: 40px 0; /* Espaciado interno */
+    text-align: center; /* Alinear al centro */
+    background-image: url(pared.jpg);
+}
+
+/* Estilo para la navegación */
+nav ul {
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin espaciado interno */
+}
+
+nav ul li {
+    display: inline; /* Mostrar en línea */
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+nav ul li a {
+    color: #ffffff; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Estilo para las secciones */
+section {
+    padding: 20px; /* Espaciado interno */
+    margin: 20px 0; /* Espaciado externo */
+    background: #ffffff; /* Color de fondo */
+    border-radius: 5px; /* Bordes redondeados */
+    text-align: center;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center; /* Alinear al centro */
+    padding: 0.5px 0; /* Espaciado interno */
+    background: #0c3b58; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+}
+
+
+

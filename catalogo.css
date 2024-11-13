@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente */
+    line-height: 1.6; /* Altura de línea */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin espaciado interno */
+    background-color: #ffffff /* Color de fondo */
+}
+
+/* Estilo para el encabezado */
+header {
+    background: #175aeb; /* Color de fondo */
+    color: #ffffff; /* Color del texto */
+    padding: 40px 0; /* Espaciado interno */
+    text-align: center; /* Alinear al centro */
+    background-image: url(pared.jpg);
+}
+/* Estilo para el contenedor del catálogo */
+.catalogo {
+    display: flex; /* Usar flexbox para el diseño */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+    justify-content: center; /* Centrar los elementos */
+    padding: 20px; /* Espaciado interno */
+}
+
+/* Estilo para cada producto */
+.producto {
+    background: #ffffff; /* Color de fondo */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 10px; /* Espaciado externo */
+    padding: 15px; /* Espaciado interno */
+    text-align: center; /* Alinear al centro */
+    width: 200px; /* Ancho fijo */
+    box-shadow: 0 2px 5px rgba(63, 38, 38, 0.1); /* Sombra */
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(43, 43, 43);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+a:hover{
+    background-color: grey;
+}
